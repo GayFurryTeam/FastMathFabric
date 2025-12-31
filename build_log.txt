@@ -1,0 +1,47 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :
+Fabric Loom: 1.14.10
+The mixin annotation is no longer enabled by default, you should remove any loom.mixin configuration. If you wish to continue to use the mixin AP you can set useLegacyMixinAp = true.
+
+> Task :clean
+
+> Task :compileJava FAILED
+D:\. .Minecraft Servers\custom plugins\FastMathFabric-main\src\main\java\net\GayFurryTeam\FastMath\mixin\MixinMathHelper.java:16: error: cannot find symbol
+    @Overwrite
+     ^
+  symbol:   class Overwrite
+  location: class MixinMathHelper
+D:\. .Minecraft Servers\custom plugins\FastMathFabric-main\src\main\java\net\GayFurryTeam\FastMath\mixin\MixinMathHelper.java:25: error: cannot find symbol
+    @Overwrite
+     ^
+  symbol:   class Overwrite
+  location: class MixinMathHelper
+2 errors
+
+[Incubating] Problems report is available at: file:///D:/.%20.Minecraft%20Servers/custom%20plugins/FastMathFabric-main/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  D:\. .Minecraft Servers\custom plugins\FastMathFabric-main\src\main\java\net\GayFurryTeam\FastMath\mixin\MixinMathHelper.java:16: error: cannot find symbol
+      @Overwrite
+       ^
+    symbol:   class Overwrite
+    location: class MixinMathHelper
+  D:\. .Minecraft Servers\custom plugins\FastMathFabric-main\src\main\java\net\GayFurryTeam\FastMath\mixin\MixinMathHelper.java:25: error: cannot find symbol
+      @Overwrite
+       ^
+    symbol:   class Overwrite
+    location: class MixinMathHelper
+  2 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to generate a Build Scan (powered by Develocity).
+
+BUILD FAILED in 8s
+2 actionable tasks: 2 executed

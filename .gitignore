@@ -1,0 +1,37 @@
+# Gradle
+.gradle/
+build/
+out/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# Fabric
+run/
+.fabric/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+run/logs
+
+# Temporary files
+*.tmp
+*.bak
+*.swp

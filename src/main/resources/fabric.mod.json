@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "fastmathfabric",
+  "version": "${version}",
+  "name": "Fast Math Fabric",
+  "description": "Re-implements OptiFine's Fast Math feature as a Fabric mod",
+  "authors": [
+    "GayFurryTeam"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/GayFurryTeam/FastMathFabric"
+  },
+  "license": "Apache v2",
+  "icon": "assets/FastMathFabric/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.GayFurryTeam.FastMath.FastMathFabric"
+    ]
+  },
+  "mixins": [
+    "FastMathMixin.json"
+  ],
+  "depends": {
+    "fabricloader": "0.18.4",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  },
+  "breaks": {
+    "optifabric": "*"
+  }
+}

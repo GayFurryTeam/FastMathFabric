@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.GayFurryTeam.FastMath.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "fastmathfabric-refmap.json",
+  "mixins": [
+    "MixinMathHelper"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
