@@ -2,8 +2,6 @@
 
 OptiFine's Fast Math feature re-implemented as a Fabric mod.
 
-**Fork maintained by GayFurryTeam**
-
 ## Description
 
 This mod replaces vanilla Minecraft's trigonometric functions with faster,
