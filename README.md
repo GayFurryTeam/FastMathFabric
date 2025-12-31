@@ -37,4 +37,4 @@ every 10 seconds for a total of 10 samples.
 
 ## License
 
-This project is licensed under the [Apache License 2.0](LICENSE).
+This project is licensed under the [Mozilla Public License Version 2.0](LICENSE).
